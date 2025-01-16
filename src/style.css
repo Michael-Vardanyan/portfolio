@@ -1,0 +1,179 @@
+body, h1, h2, p, nav, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+    background: #f4f4f4;
+}
+
+header {
+    background: #222;
+    color: #fff;
+    padding: 2em;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1.5em;
+    font-size: 1.2em;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3em;
+    max-width: 1400px;
+    margin: 3em auto;
+    padding: 0 2em;
+}
+
+main section {
+    background: #fff;
+    padding: 3em;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#about {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr;
+    gap: 1em;
+    align-items: center;
+}
+
+#about img {
+    grid-row: 1;
+    grid-column: 1;
+    max-width: 100%;
+    border-radius: 12%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    justify-self: center;
+}
+
+#about h2 {
+    margin-bottom: 0.5em;
+    font-size: 2em;
+    text-align: left;
+}
+
+#about p {
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+#skills {
+    grid-column: span 2;
+}
+
+#skills p {
+    text-align: center;
+}
+
+#skills img {
+    width: 50px;
+    margin: 0 15px;
+    vertical-align: middle;
+    opacity: 0.5;
+}
+
+#skills img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+    opacity: 1;
+}
+
+
+#portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+}
+
+#portfolio h2 {
+    grid-column: span 2;
+    grid-row: span 2;
+    margin-bottom: 0.5em;
+    font-size: 2em;
+}
+
+#portfolio img {
+    max-width: 90%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    justify-self: center;
+    margin: 2em;
+}
+
+#portfolio img:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease-in-out;
+}
+
+#portfolio p {
+    margin-top: 1.5em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#contacts {
+    text-align: center;
+}
+
+#contacts img {
+    width: 50px;
+    margin: 0 15px;
+    vertical-align: middle;
+    opacity: 0.5;
+}
+
+#contacts img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+    opacity: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 2em 0;
+    background: #222;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.open-window {
+    width: 200px;
+    height: 50px;
+}
+
+.project img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+
