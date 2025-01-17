@@ -8,21 +8,31 @@ document.addEventListener("DOMContentLoaded", () => {
         1: {
             title: "To-Do List",
             description: `
-                <p class="description-text"> 
-                    In this project I have built a To-Do List with different functionalities:
+                <div class="project-details">
+                    <p class="description-text">
+                        This project is a simple and functional To-Do List application with the following features:
+                    </p>
                     <ul class="function-list">
+                        <li>Create tasks to stay organized</li>
+                        <li>Delete tasks after they are checked off</li>
+                        <li>Persist tasks using local storage to save their state</li>
+                    </ul>
+                    <p class="technology-text">
+                        Built using: <strong>HTML, CSS, and JavaScript</strong>.
+                    </p>
+                    <ul class="links-list">
                         <li>
-                            Creating a task
-                        </li>     
-                        <li>
-                            Deleting a task, after it has been checked/crossed out
+                            <a href="https://github.com/Michael-Vardanyan/todo-list" target="_blank">
+                                Source Code: View on GitHub
+                            </a>
                         </li>
                         <li>
-                            Keeping the tasks in a local storage, which keeps the state of the tasks saved.
-                         </li>
-                     </ul>
-                    It involves using various technologies such as HTML, CSS, and JavaScript.
-                </p> 
+                            <a href="https://todo.bymichael.dev" target="_blank">
+                                Live Demo: Play around with it
+                            </a>
+                        </li>
+                    </ul>
+                </div>   
             `
         },
 

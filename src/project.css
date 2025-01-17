@@ -1,0 +1,56 @@
+.project-details {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 1000px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.description-text, .technology-text, .links-text {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.function-list {
+    margin: 0;
+    padding: 0;
+    color: #555;
+    list-style: circle;
+    display: inline-block;
+}
+
+.function-list li {
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.links-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links-list li {
+    margin-bottom: 10px;
+}
+
+.links-list a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.links-list a:hover {
+    color: #0056b3;
+}
+
+.project-details a {
+    word-break: break-word;
+}
+
