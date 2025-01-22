@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: `
                 <div class="project-details">
                     <p class="description-text">
-                        This project is a Dog Glossary, allowing following features:
+                        This project is a Dog Glossary using the <a href="https://dog.ceo/dog-api/" target="_blank"> Dog API </a>, allowing following features:
                     </p>
                     <ul class="function-list">
                         <li>Show Random Dog: Show a random dog image based in the glossary</li>
