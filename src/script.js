@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             </a>
                         </li>
                         <li>
-                            <a href="https://todo.bymichael.dev" target="_blank">
+                            <a href="https://todo-list.bymichael.dev" target="_blank">
                                 Live Demo: Play around with it
                             </a>
                         </li>
@@ -37,13 +37,68 @@ document.addEventListener("DOMContentLoaded", () => {
         },
 
         2: {
-            title: "Placeholder Project 2",
-            description: ""
+            title: "Dog Glossary",
+            description: `
+                <div class="project-details">
+                    <p class="description-text">
+                        This project is a Dog Glossary, allowing following features:
+                    </p>
+                    <ul class="function-list">
+                        <li>Show Random Dog: Show a random dog image based in the glossary</li>
+                        <li>Show Breed: Input a dog breed and click show breed</li>
+                        <li>Show Sub-Breed: Showing sub-breeds of entered breed</li>
+                        <li>Show All Breeds: Showing all breeds and sub-breeds in the glossary</li>
+                    </ul>
+                    <p class="technology-text">
+                        Built using: <strong>HTML, CSS, and JavaScript</strong>.
+                    </p>
+                    <ul class="links-list">
+                        <li>
+                            <a href="https://github.com/Michael-Vardanyan/dog-glossary" target="_blank">
+                                Source Code: View on GitHub
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://dog-glossary.bymichael.dev" target="_blank">
+                                Live Demo: Play around with it
+                            </a>
+                        </li>
+                    </ul>
+                </div>   
+            `
         },
 
         3: {
-            title: "Placeholder Project 3",
-            description: ""
+            title: "URL Shortener",
+            description: `
+                <div class="project-details">
+                    <p class="description-text">
+                        This project is a simple and functional URL Shortener application with the following features:
+                    </p>
+                    <ul class="function-list">
+                        <li>Enter a valid URL and create a randomized shortened URL</li>
+                        <li>Show the amount of times a link has been clicked with a counter</li>
+                        <li>Delete a URL by pasting it in the input field and pressing delete</li>
+                        <li>Delete all URLs by leaving the input field empty and pressing delete</li>
+                        <li>Edit a URL by pressing the Edit button next to the link and saving it by pressing on save</li>
+                    </ul>
+                    <p class="technology-text">
+                        Built using: <strong>HTML, CSS, and JavaScript</strong>.
+                    </p>
+                    <ul class="links-list">
+                        <li>
+                            <a href="https://github.com/Michael-Vardanyan/url-shortener" target="_blank">
+                                Source Code: View on GitHub
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://url-shortener.bymichael.dev" target="_blank">
+                                Live Demo: Play around with it
+                            </a>
+                        </li>
+                    </ul>
+                </div>   
+            `
         },
 
         4: {
